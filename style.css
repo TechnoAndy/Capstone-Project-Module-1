@@ -11,16 +11,18 @@
      }
 
       .main-section {
-      background-image: url(/images/backgroundhomepage.jpg);
+      background-image: url(/images/backgroundaboutpage4.jpg);
       background-repeat: no-repeat;
       width: 100%;
       background-size: cover;
-      padding: 100px 0;
+      /* padding: 80px 0px; */
       font-family: lato;
       color: #ec5242;
-      padding-left: 20px;
-      padding-top: 20px;
       
+     }
+
+     .title1 {
+      padding-left: 25px;
      }
 
      .firstline {
@@ -41,7 +43,7 @@
       width: 85%;
       padding: 5px 10px 5px 10px;
       border: 3px solid #fff;
-      
+      margin: auto;
      }
 
      .details-1 {
@@ -49,17 +51,18 @@
       font-size: 30px;
       font-weight: bold;
       margin-bottom: 10px;
+      padding-left: 25px;
      }
 
      .details-2 {
       color: #272a31;
       font-size: 16px;
-      padding-bottom: 5px;
+      padding-bottom: 80px;
+      padding-left: 25px;
      }
 
      .container1 {
       background-image: url(images/backgroundaboutpage.jpg);
-      
      }
 
      .box-1 {
@@ -90,6 +93,12 @@
     /* Mobile view */
 @media screen and (max-width: 768px) { 
 
+  .main-section {
+    /* padding: 80px 0px;
+    padding-left: 25px; */
+    padding-top: 10px;
+   }
+
     .navbarfirst {
       display: none;
     }
@@ -103,6 +112,7 @@
       cursor: pointer;
       padding-bottom: 40px;
       color:  #272a31;
+      padding-left: 25px;
       
     }
 
@@ -137,11 +147,9 @@
       background-color: #272a31;
       list-style: none;
       margin-bottom: 15px; 
-      border: 2px solid #fff;
       padding: 10px 10px;
       margin: 15px 10px;
-      width: 80%;
-      
+      width: 85%;
      }
 
     .mp-1 {
@@ -165,6 +173,13 @@
 /* Desktop View */
 @media screen and (min-width: 768px) { 
 
+  .main-section {
+    padding-top: 0;
+   }
+
+  .navbar {
+    padding-left: 0;
+  }
   .navbarfirst {
     background-color: #272a31;
     width: 100%;
@@ -173,6 +188,7 @@
     align-items: center;
     justify-content: space-between;
     font-family: lato;
+    padding-left: 20px;
    }
 
    .navbarsecond {
@@ -196,6 +212,33 @@
 
    .bar {
     display: none;
+   }
+
+   .title1 {
+    padding-top: 60px;
+    padding-left: 80px;
+   }
+
+   .firstline {
+    font-size: 25px;
+   }
+
+   .header {
+    font-size: 40px;
+   }
+
+   .quote {
+    width: 30%;
+    margin: 80px;
+    font-size: 11px;
+    padding-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+   }
+
+   .details {
+    padding-left: 55px;
+    padding-bottom: 20px;
    }
 
   .btn {
