@@ -11,7 +11,7 @@
      }
 
       .main-section {
-      background-image: url(/images/greybackground-poster.jpg);
+      background-image: url(/images/backgroundhomepage.jpg);
       background-repeat: no-repeat;
       width: 100%;
       background-size: cover;
@@ -20,6 +20,7 @@
       color: #ec5242;
       padding-left: 20px;
       padding-top: 20px;
+      
      }
 
      .firstline {
@@ -38,8 +39,8 @@
       color: #272a31;
       font-size: 14px;
       width: 85%;
-      padding: 10px 10px 10px 10px;
-      border: 2.5px solid #fff;
+      padding: 5px 10px 5px 10px;
+      border: 3px solid #fff;
       
      }
 
@@ -47,28 +48,21 @@
       color: #272a31;
       font-size: 30px;
       font-weight: bold;
-      margin-bottom: -10px;
+      margin-bottom: 10px;
      }
 
      .details-2 {
       color: #272a31;
       font-size: 16px;
-      padding-bottom: 10px;
+      padding-bottom: 5px;
      }
 
      .container1 {
-      background-color: #272a31;
-     }
-
-     .box {
-      list-style: none;
-      display:grid;
-      text-align: center;
-      gap: 10px;  
+      background-image: url(images/backgroundaboutpage.jpg);
+      
      }
 
      .box-1 {
-      background-color: #272a31;
       color: #ec5242;
       font-family: lato;
       padding-right: 40px;
@@ -87,6 +81,8 @@
       font-family: lato;
       color: #fff;
       font-size: 30px;
+      padding-top: 30px;
+      border-bottom: 1px solid #ec5242;
      }
 
     
@@ -134,6 +130,20 @@
       background-color: #fff;
     }
 
+    .box {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: #272a31;
+      list-style: none;
+      margin-bottom: 15px; 
+      border: 2px solid #fff;
+      padding: 10px 10px;
+      margin: 15px 10px;
+      width: 80%;
+      
+     }
+
     .mp-1 {
       display: none;
     }
@@ -141,12 +151,13 @@
     .btn {
       background-color: #ec5242;
       border: none;
-      padding: 30px 15px;
+      padding: 35px;
       color: #fff;
       text-align: center;
       font-family: lato;
-      width: 80%;
-      margin: 50px;
+      font-size: 12px;
+      width: 60%;
+      margin: 50px 90px;
     }
 
 }
