@@ -181,43 +181,43 @@
 
    .navbarsecond {
     background-color: #fff;
-    padding-bottom: 15px;
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    color: #272a31;
-    font-family: lato;
     padding-top: 15px;
-    font-size: 15px;
-    
+    padding-bottom: 15px;
    }
 
    .nav-logo {
-    margin-left: 50px;
+    padding-right: 248px;
+    padding-left: 120px;
    }
-
    .nav-item {
     color: #272a31;
+    display: row;
+    align-items: center;
+    justify-content: start;
+    color: #272a31;
+    font-family: lato;
+    font-size: 15px;
+    padding-right: 60px;
    }
 
    .nav-item-101 {
     color: #fff;
-    font-size: 10px;
+    font-size: 12px;
     font-family: lato; 
-    padding-right: 20px;
+    padding-right: 30px;
    }
 
    .nav-item-102 {
     color: #fff;
-    font-size: 10px;
+    font-size: 12px;
     font-family: lato; 
-    padding-right: 20px;
+    padding-right: 30px;
    }
 
    .nav-item-103 {
     color: #fff;
-    font-size: 10px;
+    font-size: 12px;
     font-family: lato; 
     padding-right: 150px;
 
