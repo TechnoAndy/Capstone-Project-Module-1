@@ -1,13 +1,5 @@
-     black-color{
-       color:  #272a31;
-    }
-
-     orange-color{
-        color:  #ec5242;
-     }
-
-     grey-color{
-        color:  #d3d3d3;
+     a {
+      text-decoration: none;
      }
 
       .main-section {
@@ -15,7 +7,6 @@
       background-repeat: no-repeat;
       width: 100%;
       background-size: cover;
-      /* padding: 80px 0px; */
       font-family: lato;
       color: #ec5242;
       
@@ -87,8 +78,6 @@
       padding-top: 30px;
       border-bottom: 1px solid #ec5242;
      }
-
-    
 
     /* Mobile view */
 @media screen and (max-width: 768px) { 
@@ -180,35 +169,66 @@
   .navbar {
     padding-left: 0;
   }
+  
   .navbarfirst {
     background-color: #272a31;
     width: 100%;
-    font-size: 10px;
-    display:flex;
-    align-items: center;
-    justify-content: space-between;
-    font-family: lato;
-    padding-left: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: end;
+    padding-top: 10px;
    }
 
    .navbarsecond {
-    background-color: #d3d3d3;
-    padding-bottom: 25px;
+    background-color: #fff;
+    padding-bottom: 15px;
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     color: #272a31;
     font-family: lato;
+    padding-top: 15px;
+    font-size: 15px;
+    
+   }
+
+   .nav-logo {
+    margin-left: 50px;
    }
 
    .nav-item {
     color: #272a31;
    }
 
-   .nav-item-1 {
+   .nav-item-101 {
     color: #fff;
+    font-size: 10px;
+    font-family: lato; 
+    padding-right: 20px;
    }
+
+   .nav-item-102 {
+    color: #fff;
+    font-size: 10px;
+    font-family: lato; 
+    padding-right: 20px;
+   }
+
+   .nav-item-103 {
+    color: #fff;
+    font-size: 10px;
+    font-family: lato; 
+    padding-right: 150px;
+
+   }
+
+   .nav-item-2 {
+    color: #ec5242;
+    border: 4px solid #ec5242;
+    padding: 8px 8px;
+    margin-right: 50px;
+   } 
 
    .bar {
     display: none;
