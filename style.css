@@ -3,13 +3,12 @@
      }
 
       .main-section {
-      background-image: url(/images/backgroundaboutpage4.jpg);
+      background-image: url(/images/backgroundaboutpage1.jpg);
       background-repeat: no-repeat;
       width: 100%;
       background-size: cover;
       font-family: lato;
       color: #ec5242;
-      
      }
 
      .title1 {
@@ -82,11 +81,14 @@
     /* Mobile view */
 @media screen and (max-width: 768px) { 
 
-  .main-section {
-    /* padding: 80px 0px;
-    padding-left: 25px; */
-    padding-top: 10px;
-   }
+    .main-section {
+      padding-top: 10px;
+    }
+
+   .nav-logo {
+    color: #ec5242;  
+    font-size: 20px
+    }
 
     .navbarfirst {
       display: none;
@@ -102,7 +104,6 @@
       padding-bottom: 40px;
       color:  #272a31;
       padding-left: 25px;
-      
     }
 
     .bar-1 {
@@ -139,6 +140,7 @@
       padding: 10px 10px;
       margin: 15px 10px;
       width: 85%;
+      opacity: 0.8;
      }
 
     .mp-1 {
@@ -157,20 +159,18 @@
       margin: 50px 90px;
     }
 
+    .footer-1 {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
 }
 
 /* Desktop View */
 @media screen and (min-width: 768px) { 
 
-  .main-section {
-    padding-top: 0;
-   }
-
-  .navbar {
-    padding-left: 0;
-  }
-  
-  .navbarfirst {
+   .navbarfirst {
     background-color: #272a31;
     width: 100%;
     display: flex;
@@ -182,14 +182,28 @@
    .navbarsecond {
     background-color: #fff;
     width: 100%;
-    padding-top: 15px;
+    padding-top: 10px;
     padding-bottom: 15px;
    }
 
    .nav-logo {
-    padding-right: 248px;
-    padding-left: 120px;
+    padding-right: 360px;
+    padding-left: 120px;   
+    color: #ec5242;  
+    font-size: 20px
    }
+
+   .fa-facebook-f {
+    color: white;
+   }
+
+   .fa-twitter {
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+   }
+
    .nav-item {
     color: #272a31;
     display: row;
@@ -260,6 +274,21 @@
     padding-left: 55px;
     padding-bottom: 20px;
    }
+
+   .box {
+    /* text-align: center; */
+    
+    justify-content: space-between;
+    background-color: #272a31;
+    list-style: none;
+    margin-bottom: 20px; 
+    padding: 10px 10px;
+    margin: 15px 10px;
+    width: 15%;
+    opacity: 0.8;
+   }
+
+   
 
   .btn {
     display: none;
