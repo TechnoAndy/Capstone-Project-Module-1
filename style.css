@@ -280,9 +280,16 @@
       text-align: center;
       background-color: white;
       width: 90%;
-      padding: 10px 10px 10px 10px;
+      padding: 30px 10px 30px 10px;
       border: 1px solid rgb(196, 191, 191);
       margin-right: 40px;
+     }
+
+     .hr-title-1 {
+      border-bottom: 1px solid rgb(196, 191, 191);
+      width: 100%;  
+      margin-left: -20px;
+      margin-top: 40px;
      }
 
      .about-info {
