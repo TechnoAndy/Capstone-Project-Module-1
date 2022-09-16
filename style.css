@@ -203,6 +203,50 @@
       background-color: #272a31;
     }
 
+    .about-title1 {
+      text-align: center;
+    }
+
+    .about-firstline {
+      margin-bottom: 5px;
+      font-size: 28px;
+    }
+
+    .about-header {
+      font-size: 40px;
+    }
+
+    .about-quote {
+      text-align: center;
+      color: #272a31;
+      background-color: white;
+      font-size: 14px;
+      width: 90%;
+      padding: 10px 10px 10px 10px;
+      border: 1px solid rgb(196, 191, 191);
+      margin: auto;
+     }
+
+     .about-details-1 {
+      color: #272a31;
+      text-align: center;
+      font-size: 13px;
+      padding-top: 15px;
+     }
+
+     .about-details-2 {
+      color: #272a31;
+      text-align: center;
+      font-size: 13px;
+      font-weight: 700;
+      text-decoration: underline;
+      padding-bottom: 30px;
+      margin-top: -15px;
+     }
+
+     .about-mp {
+      text-align: center;
+     }
     .box {
       display: flex;
       align-items: center;
@@ -225,6 +269,49 @@
 
      .box-2 {
       text-align: left;
+     }
+
+     .about-box-2 {
+      text-align: center;
+      padding-right: 40px;
+     }
+
+     .logo-img {
+      text-align: center;
+      background-color: white;
+      width: 90%;
+      padding: 10px 10px 10px 10px;
+      border: 1px solid rgb(196, 191, 191);
+      margin-right: 40px;
+     }
+
+     .about-info {
+      text-align: center;
+      font-size: 14px;
+     }
+
+     .section-title {
+      text-align: center;
+     }
+
+     .about-pst {
+      text-align: center;
+      margin-bottom: 40px;
+      margin-top: -40px;
+     }
+
+     .about-pst-1 {
+      margin-top: 15px;
+     }
+
+     .about-past {
+      background-color: #ec5242;
+      opacity: 0.8;
+      color: #fff;
+      padding: 50px;
+      width: 95%;
+      margin-left: 10px;
+      
      }
 
     .mp-1 {
