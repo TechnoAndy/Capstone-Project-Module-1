@@ -12,13 +12,13 @@ document.querySelectorAll('.nav-item').forEach((n) => n.addEventListener('click'
   navList.classList.remove('active');
 }));
 
-/* const reset = () => {
+const reset = () => {
   if (window.innerWidth > 768) {
     navbar.style.display = 'none';
   }
 };
 
-window.addEventListener('resize', reset); */
+window.addEventListener('resize', reset);
 const data =[
   {
     id: 1,
@@ -117,5 +117,5 @@ data.forEach((speakerPara) => {
 });
 
 const body = document.querySelector('body');
-const partners = document.getElementById('partners-section');
+const partners = document.getElementById('partners');
 body.insertBefore(speakerContainer, partners);
