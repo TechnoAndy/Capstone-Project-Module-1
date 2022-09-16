@@ -136,10 +136,8 @@
     .featured {
       width: 100%;
       height: auto;
+      text-align: center;
     }
-
-    
-
     .about-title1 {
       text-align: center;
     }
@@ -348,12 +346,12 @@
       margin-right: 40px;
      }
 
-     .hr-title-1 {
+    /*  .hr-title-1 {
       border-bottom: 1px solid rgb(196, 191, 191);
       width: 100%;  
       margin-left: -20px;
       margin-top: 40px;
-     }
+     } */
 
      .about-info {
       text-align: center;
