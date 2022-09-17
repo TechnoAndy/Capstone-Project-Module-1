@@ -32,7 +32,7 @@ You should use a JavaScript variable with the data about the speakers and use it
 
 ## Live Demo (if available)
 
-[Live Demo Link] (https://technoandy.github.io/Capstone-Project-Module-1/)
+[Live Demo Link](https://technoandy.github.io/Capstone-Project-Module-1/)
 
 ## Authors
 
@@ -58,7 +58,7 @@ Give a ⭐️ if you like this project!
 
 - Microverse Inc
 - [Cindy Shin and Behance](https://www.behance.net/adagio07)
-- Loom (https://www.loom.com/share/094e4cdd973340a5a86b1f40c0be472e) (Video link attached)
+- Loom
 - https://icons8.com/
 
 ## 📝 License
