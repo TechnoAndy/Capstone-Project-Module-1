@@ -384,7 +384,6 @@ a :hover {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
   }
 
   .partners-section {
@@ -411,10 +410,6 @@ a :hover {
     width: 120px;
     height: 80px;
     padding-bottom: 30px;
-   /*  width: 180px;
-    height: 80px;
-    margin-bottom: 100px; */
-    
   }
 
   .section-speakers-heading {
