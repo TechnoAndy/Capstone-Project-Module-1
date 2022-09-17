@@ -262,12 +262,13 @@ a :hover {
     font-size: 15px;
     padding-right: 20px;
     text-decoration: none;
+    margin-left: auto;
   }
 
   .nav-item-2 {
     color: #272a31;
     padding: 8px 8px;
-    margin-right: 20px;
+    margin-left: auto;
   }
 
   .bar {
@@ -486,6 +487,7 @@ a :hover {
     width: 100%;
     padding-top: 10px;
     padding-bottom: 15px;
+    display: flex;
   }
 
   .navbarsecond :hover {
