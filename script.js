@@ -1,6 +1,6 @@
 const hamburger = document.querySelector('.bar');
 const navList = document.querySelector('.nav-list');
-
+const navbar = document.querySelector('navbar')
 
 hamburger.addEventListener('click', () => {
   hamburger.classList.toggle('active');
@@ -19,52 +19,52 @@ const reset = () => {
 };
 
 window.addEventListener('resize', reset);
-const data =[
+const data = [
   {
     id: 1,
-    pic:'images/icons8-client-100.png',
+    pic: 'images/icons8-client-100.png',
     altText: 'speaker',
-    nameOfSpeaker:'Jonathan Cornelissen',
+    nameOfSpeaker: 'Jonathan Cornelissen',
     designation: 'Chief Executive Officer',
     history: 'Talks about #edtech, #python, #datcamp, #education, and #datascientist',
   },
   {
     id: 2,
-    pic:'images/icons8-client-100.png',
+    pic: 'images/icons8-client-100.png',
     altText: 'featured speaker image',
-    nameOfSpeaker:'Martjin Theuwissen',
+    nameOfSpeaker: 'Martjin Theuwissen',
     designation: 'Chief Operating Officer',
     history: 'Talks about #edtech, #python, #datcamp, #education, and #datascientist',
   },
   {
     id: 3,
-    pic:'images/icons8-client-100.png',
+    pic: 'images/icons8-client-100.png',
     altText: 'featured speaker image',
-    nameOfSpeaker:'Diter De Mesmaeker',
+    nameOfSpeaker: 'Diter De Mesmaeker',
     designation: 'Chief Technology Officer',
     history: 'Talks about #edtech, #python, #datcamp, #education, and #datascientist',
   },
   {
     id: 4,
-    pic:'images/icons8-client-100.png',
+    pic: 'images/icons8-client-100.png',
     altText: 'featured speaker image',
-    nameOfSpeaker:'Thad Pitney',
+    nameOfSpeaker: 'Thad Pitney',
     designation: 'General Counsel',
     history: 'Talks about #edtech, #python, #datcamp, #education, and #datascientist',
   },
   {
     id: 5,
-    pic:'images/icons8-presenter-100.png',
+    pic: 'images/icons8-presenter-100.png',
     altText: 'featured speaker image',
-    nameOfSpeaker:'Susannah Belcher',
+    nameOfSpeaker: 'Susannah Belcher',
     designation: 'Chief Revenue Officer B2C',
     history: 'Talks about #edtech, #python, #datcamp, #education, and #datascientist',
   },
   {
     id: 6,
-    pic:'images/icons8-presenter-100.png',
+    pic: 'images/icons8-presenter-100.png',
     altText: 'featured speaker image',
-    nameOfSpeaker:'Catalina Schveninger',
+    nameOfSpeaker: 'Catalina Schveninger',
     designation: 'Chief People Officer',
     history: 'Talks about #edtech, #python, #datcamp, #education, and #datascientist',
   },
