@@ -1,6 +1,6 @@
 body {
   padding: 0%;
-  margin: 0px;
+  margin: 0;
 }
 
 a {
@@ -98,10 +98,6 @@ a :hover {
   padding-left: 35px;
 }
 
-fa-chalkboard-teacher {
-  color: white;
-}
-
 .container1 {
   background-image: url(images/backgroundaboutpage.jpg);
 }
@@ -138,6 +134,7 @@ fa-chalkboard-teacher {
   height: auto;
   text-align: center;
 }
+
 .about-title1 {
   text-align: center;
 }
@@ -258,7 +255,7 @@ fa-chalkboard-teacher {
 
   .nav-item {
     color: #272a31;
-    display: row;
+    display: flex;
     align-items: center;
     justify-content: start;
     font-family: "Lato", sans-serif;
@@ -312,7 +309,7 @@ fa-chalkboard-teacher {
     list-style: none;
     margin-bottom: 10px;
     padding: 20px 20px 20px 20px;
-    margin: 15px 10px;
+    margin: 15px;
     width: 88%;
     opacity: 0.8;
   }
@@ -340,13 +337,6 @@ fa-chalkboard-teacher {
     border: 1px solid rgb(196, 191, 191);
     margin-right: 40px;
   }
-
-  /*  .hr-title-1 {
-      border-bottom: 1px solid rgb(196, 191, 191);
-      width: 100%;  
-      margin-left: -20px;
-      margin-top: 40px;
-     } */
 
   .about-info {
     text-align: center;
@@ -525,7 +515,7 @@ fa-chalkboard-teacher {
 
   .nav-item {
     color: #272a31;
-    display: row;
+    display: flex;
     align-items: center;
     justify-content: start;
     font-family: "Lato", sans-serif;
@@ -622,7 +612,7 @@ fa-chalkboard-teacher {
 
   .mp-1 {
     color: #fff;
-    font-family: lato;
+    font-family: "Lato", sans-serif;
     font-size: 15px;
     padding-left: 600px;
     text-decoration: underline;
@@ -701,17 +691,6 @@ fa-chalkboard-teacher {
     justify-content: center;
     width: 100%;
     margin-left: 300px;
-  }
-
-  .speaker-image {
-    width: 128px;
-    height: 128px;
-    margin-block: 0;
-  }
-
-  .speaker-history {
-    margin: 0;
-    width: 95%;
   }
 
   .featured-speakers {
@@ -794,6 +773,7 @@ fa-chalkboard-teacher {
     width: 100%;
     margin-top: 5%;
   }
+
   .partners {
     display: flex;
     flex-direction: column;
@@ -813,10 +793,8 @@ fa-chalkboard-teacher {
 
   .partners-flex {
     width: 75%;
-    /* margin: auto; */
     margin-top: 10%;
     display: flex;
-    /* flex-wrap: wrap; */
     justify-content: space-evenly;
     margin-left: 170px;
     margin-right: 50px;
@@ -829,13 +807,14 @@ fa-chalkboard-teacher {
     display: flex;
     flex-direction: column;
   }
+
   .our-partners {
     background-color: #444242;
     display: grid;
     flex-direction: column;
     height: 300px;
     width: 100%;
-    margin-top: -0px;
+    margin-top: 0;
   }
 
   .partner-image {
