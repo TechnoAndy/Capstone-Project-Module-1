@@ -369,12 +369,12 @@
      }
 
      .about-past {
-      background-image: url(/images/2021image.jpg);
-      opacity: 0.8;
+      background-image: url(/images/2019image.jpg);
       color: #fff;
       padding: 50px;
       width: 95%;
       margin-left: 10px;
+      text-align: center;
      }
 
     .mp-1 {
@@ -669,7 +669,6 @@
 
   .about-pst {
     text-align: center;
-    /* margin-bottom: 40px; */
     margin-top: -40px;
     display: flex;
     width: 100%;
@@ -678,8 +677,6 @@
 
    .about-pst-1 {
     text-align: center;
-    /* margin-bottom: 40px; */
-    /* margin-top: -3px; */
     padding-bottom: 30px;
     margin-right: 320px;
     display: flex;
@@ -688,13 +685,15 @@
    }
 
    .about-past {
-    background-image: url(/images/2021image.jpg);
+    background-image: url(/images/2019image.jpg);
     background-repeat: no-repeat;
-    opacity: 0.8;
     color: #fff;
     padding: 50px;
     margin-left: 10px;
     width: 100%;
+    text-align: center;
+    padding-top: 100px;
+    padding-left: 40px;
     
    }
 
