@@ -28,6 +28,7 @@ a :hover {
   color: #fff;
   text-align: center;
   margin-bottom: 20px;
+  height: 50vh;
 }
 
 .partners {
@@ -383,6 +384,7 @@ a :hover {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
   }
 
   .partners-section {
@@ -393,7 +395,7 @@ a :hover {
   .partners-heading {
     text-align: center;
     color: #fff;
-    padding-top: 10%;
+    padding-top: 5%;
   }
 
   .partners-flex {
@@ -406,8 +408,13 @@ a :hover {
   }
 
   .partner-image {
-    width: 125px;
-    height: 40px;
+    width: 120px;
+    height: 80px;
+    padding-bottom: 30px;
+   /*  width: 180px;
+    height: 80px;
+    margin-bottom: 100px; */
+    
   }
 
   .section-speakers-heading {
@@ -488,6 +495,7 @@ a :hover {
     padding-top: 10px;
     padding-bottom: 15px;
     display: flex;
+    color: #d3d3d3;
   }
 
   .navbarsecond :hover {
@@ -774,7 +782,7 @@ a :hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: auto;
+    height: 50vh;
     width: auto;
     margin-left: 40px;
     margin-right: 40px;
@@ -783,7 +791,7 @@ a :hover {
   }
 
   .partners-heading {
-    padding-top: 3%;
+    padding-top: 2%;
     margin-bottom: 1%;
   }
 
@@ -816,6 +824,6 @@ a :hover {
   .partner-image {
     width: 180px;
     height: 80px;
-    margin-bottom: 100px;
+    margin-top: -180px;
   }
 }
